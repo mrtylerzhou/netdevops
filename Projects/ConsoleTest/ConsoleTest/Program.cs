@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,9 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var obj = new {Name = "Tyler", Age = 28};
+            string jsonStr = JsonConvert.SerializeObject(obj);
+            Console.WriteLine(jsonStr);
             Console.ReadKey();
         }
     }
