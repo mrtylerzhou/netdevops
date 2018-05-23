@@ -12,7 +12,7 @@ try
         Protocol = [WinSCP.Protocol]::FTP #传输协议
         HostName = "localhost" #服务器名,由于我们是在本机测试,所以这里是localhost
         UserName = "tyler"  #用户名,需要替换为你的实际ftp用户名
-        Password = "xxxxx"  #密码,需要替换为你的实际ftp用户密码
+        Password = "xxxxxx"  #密码,需要替换为你的实际ftp用户密码
        #SshHostKeyFingerprint = "ssh-rsa 2048 xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx"
     }
  
