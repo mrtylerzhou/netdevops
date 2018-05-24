@@ -1,0 +1,1 @@
+"C:\Users\tylerzhou\.nuget\packages\nuget.exe\3.4.3\build\native\NuGet.exe" restore "C:\Program Files (x86)\Jenkins\workspace\PullOverSSH\Projects\GitTest\GitTest.sln"

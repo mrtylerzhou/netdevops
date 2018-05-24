@@ -28,7 +28,7 @@ try
 		#向远程服务器添加文件.第一个参数为本地要上传的文件目录这里的*并非路径的一部分,而是要包含目录下所有文件的意思,第二个为远程服务器目录,这里我们并不指定,因为服务端只配置了一个目录,第三个选项为是否删除,如果为true则上传后自动删除本地目录内容.
 		#最后一个为传输选项
         $transferResult =
-            $session.PutFiles("E:\personal project\netdevops\Projects\GitTest\GitTest\bin\Release\*", "*", $False, $transferOptions)
+            $session.PutFiles("C:\Program Files (x86)\Jenkins\workspace\PullOverSSH\Projects\GitTest\GitTest\bin\Release\*", "*", $False, $transferOptions)
  
         # Throw on any error
         $transferResult.Check()
