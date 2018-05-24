@@ -2,7 +2,7 @@
 #[psobject]
 try
 {
-    # 加载WinSCPnet.dll,类似于.net程序中的添加引用
+    # 加载WinSCPnet.dll,类似于.net程序中的添加引用 
     Add-Type -Path "C:\Program Files (x86)\WinSCP\WinSCPnet.dll"
  
 	#创建会话对象
