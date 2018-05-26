@@ -1,3 +1,0 @@
-hello,kitty
-happy
-add a new line
