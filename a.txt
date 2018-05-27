@@ -4,3 +4,4 @@ hi
 b
 hello,kitty
 happyit
+来自master的内容
